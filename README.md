@@ -55,7 +55,8 @@ https://apifox.com/apidoc/shared-e8a8823b-a832-4bfb-a542-8afa8acf2bb4
 2.上传前端的全部文件并解压
 3.打开根目录的index.html文件，进行如下配置
 (配置后端接口地址（必须）)
-![image.png](https://api.apifox.com/api/v1/projects/4019769/resources/422688/image-preview)
+![image](https://github.com/user-attachments/assets/f87a5874-fed5-4c0b-ac20-2368687ff775)
+
 
 :::tip
 以下部分为必须操作内容，否则会页面刷新404
@@ -73,25 +74,28 @@ location / {
 ```
 如果没有宝塔面板
 打开ngix的配置文件，修改内容
-![image.png](https://api.apifox.com/api/v1/projects/4019769/resources/422695/image-preview)
+![image](https://github.com/user-attachments/assets/eea98f57-e4a5-4ef3-a5b4-259d67133a10)
+
 5.启用gzip压缩
 :::tip
 该部分gzip 可以压缩 3-5 倍左右， 能够大幅度优化首屏加载的速度，项目已经配置了打包生成 gzip 文件，只需要给 nginx 增加如下配置：
 :::
 打开ngix的配置文件，修改内容
-![image.png](https://api.apifox.com/api/v1/projects/4019769/resources/422689/image-preview)
+![image](https://github.com/user-attachments/assets/0cfc9804-cb49-4a64-b691-c9fb115b8ba0)
+
 以上为没有宝塔面板操作方法
 ### **宝塔面板操作方法如下**
 软件商店→已安装→选择Nginx右侧的设置，选择性能调整，将gzip_comp_level改为3或者4
 
-![image.png](https://api.apifox.com/api/v1/projects/4019769/resources/422690/image-preview)
+![image](https://github.com/user-attachments/assets/ab5eb915-2fc2-41ff-b216-d3bb34bce9b4)
 
-![image.png](https://api.apifox.com/api/v1/projects/4019769/resources/422691/image-preview)
 
-![image.png](https://api.apifox.com/api/v1/projects/4019769/resources/422692/image-preview)
+![image](https://github.com/user-attachments/assets/0cbc50ea-263e-4389-abfd-8e2e2065f519)
 
-![image.png](https://api.apifox.com/api/v1/projects/4019769/resources/422693/image-preview)
-压缩级别，1压缩比最小处理速度最快，9压缩比最大但处理最慢，同时也最消耗CPU,一般设置为3就可以了
+
+![image](https://github.com/user-attachments/assets/dfc7c645-858e-4d93-80a1-2742dbbd2563)
+
+>>> 压缩级别，1压缩比最小处理速度最快，9压缩比最大但处理最慢，同时也最消耗CPU,一般设置为3就可以了
 到此：前端安装完成
 
 :::tip
@@ -101,6 +105,11 @@ location / {
 1.宝塔新建站点，php选择8.0以上，mysql推荐8.0，5.6，5.7也可以使用
 2.上传后端的全部文件
 3.访问后端的域名
+![image](https://github.com/user-attachments/assets/44cac404-5eaa-4b82-b39e-9f5c493f292b)
+如同所示，从上到下，依次操作，操作完毕后，访问前端域名会自动跳转到登录界面
+默认后台用户名密码
+安装完成后，后台账号密码默认：admin / 123456
+
 
 ![image.png](https://api.apifox.com/api/v1/projects/4019769/resources/422694/image-preview)
 如同所示，从上到下，依次操作，操作完毕后，访问前端域名会自动跳转到登录界面
