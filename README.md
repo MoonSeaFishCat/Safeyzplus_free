@@ -48,7 +48,7 @@ https://www.apibug.com/code/webcode/2554.html
 
 
 ## 接口文档地址
-https://apifox.com/apidoc/shared-e8a8823b-a832-4bfb-a542-8afa8acf2bb4
+[https://apifox.com/apidoc/shared-e8a8823b-a832-4bfb-a542-8afa8acf2bb4](https://apifox.com/apidoc/shared-ce2cfa88-9eb1-4133-8f04-e83c033cf3f8)
 ## 详细安装教程
 ## 前端安装教程
 1.宝塔新建站点，php设置为纯静态，不建立数据库
