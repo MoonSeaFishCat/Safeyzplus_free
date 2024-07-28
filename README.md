@@ -110,9 +110,3 @@ location / {
 默认后台用户名密码
 安装完成后，后台账号密码默认：admin / 123456
 
-
-![image.png](https://api.apifox.com/api/v1/projects/4019769/resources/422694/image-preview)
-如同所示，从上到下，依次操作，操作完毕后，访问前端域名会自动跳转到登录界面
-默认后台用户名密码
-安装完成后，后台账号密码默认：admin / 123456
-
